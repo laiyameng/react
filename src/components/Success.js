@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class App extends React.Component {
+export default class Success extends React.Component {
     render() {
         return (
             <div>login seccess！！！</div>

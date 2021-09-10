@@ -3,10 +3,11 @@ export default class Passport {
         this.isLogin = false;
     }
 
-    login(username, password, callback) {
+    login(username, password,) {
+        console.log(username,password)
         if(username === 'timo' && password === '123') {
             this.isLogin = true;
-            callback();
+            // callback();
         } else {
             console.log('登录失败！');
         }
